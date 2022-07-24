@@ -7,9 +7,9 @@ server:
 spring:
   datasource:
     hikari:
-    password:
+    password: "holow007"
     url: jdbc:mysql://localhost:3306/registration
-    username:
+    username: "root"
   jpa:
     hibernate:
       ddl-auto: create-drop
